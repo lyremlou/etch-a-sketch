@@ -7,13 +7,10 @@ for (let i = 0; i < 16; i++) {
   for (let j = 0; j < 16; j++) {
     const row = document.createElement("div");
     row.setAttribute("class", "grid");
-    row.addEventListener("mouseenter", () => {
+    row.addEventListener("mouseover", () => {
       row.setAttribute("style", "background: purple;");
     });
-    row.addEventListener("mouseleave", () => {
-      row.setAttribute("style", "background: white;");
-    });
+
     col.appendChild(row);
   }
-  
 }
