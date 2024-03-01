@@ -7,11 +7,10 @@
 }
 
 .grid {
-
     flex: 1;
     height: 50px;
     width: 50px;
-    border-style: solid;
+    border-style: hidden;
    
 
 }
