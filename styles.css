@@ -1,16 +1,23 @@
-.container {
-    display: flex;
-    justify-content: center;
-   
-    
-    
+.gridContainer {
+  display: flex;
 }
 
 .grid {
-    flex: 1;
-    height: 50px;
-    width: 50px;
-    border-style: hidden;
-   
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  height: 50px;
+  width: 50px;
+  border-style: hidden;
+}
 
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border: black;
+  border-style: solid;
+  height: 50px;
 }
